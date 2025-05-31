@@ -4,13 +4,20 @@ body {
   background: #e6e6e6;
 }
 
+/* CV */
+
 .cv {
   max-width: 980px;
   min-height: 100px;
   background: white;
   margin-left: auto;
   margin-right: auto;
-  padding: 50px;
+  padding: 30px;
+  margin-top: 20px;
+  margin-bottom: ;
+  box-shadow: 11px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 11px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .intro {
@@ -38,6 +45,8 @@ body {
   width: 100%;
   display: inline-block;
 }
+
+/* Form */
 
 .register {
   background-color: #ffffff;
@@ -115,4 +124,33 @@ body {
 
 .btn:hover {
   background-color: #0056b3;
+}
+
+/* Menu */
+
+.menu {
+  background: #3e5cca;
+  padding: 0 40px;
+  font-size: 0;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li a {
+  display: inline-block;
+  padding: 25px 40px;
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+}
+
+.active a {
+  color: black !important;
+  background-color: #ffffff;
+}
+
+.menu li a i {
+    margin-left: 10px;
 }
